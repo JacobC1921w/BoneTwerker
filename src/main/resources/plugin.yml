@@ -1,0 +1,43 @@
+name: BoneTwerkers
+version: '${project.version}'
+main: dev.c0b.bonetwerker.BoneTwerker
+api-version: '1.20'
+authors: [JacobC1921]
+description: A plugin that allows you to twerk on trees to grow them!
+website: https://c0b.dev/BoneTwerker
+
+commands:
+
+  setchance:
+    description: Get/set chance value in config
+    usage: "Usage: /setchance <chance>"
+    permission: BoneTwerker.setchance
+    permission-message: You don't have permission to use this command!
+    aliases: [ chance ]
+
+  setradius:
+    description: Get/set radius value in config
+    usage: "Usage: /setradius <radius>"
+    permission: BoneTwerker.setradius
+    permission-message: You don't have permission to use this command!
+    aliases: [ radius ]
+
+  tbt:
+    description: Toggle plugin on and off
+    usage: "Usage: /tbt"
+    permission: BoneTwerker.tbt
+    permission-message: You don't have permission to use this command!
+    aliases: [ togglebonetwerker ]
+
+permissions:
+  BoneTwerker.setchance:
+    description: Allows you to use the /setradius command
+    default: op
+
+  BoneTwerker.setradius:
+    description: Allows you to use the /setchance command
+    default: op
+
+  BoneTwerker.tbt:
+    description: Allows you to use the /tbt command
+    default: op
