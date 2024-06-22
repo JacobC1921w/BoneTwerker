@@ -4,7 +4,7 @@
   <groupId>dev.c0b</groupId>
   <artifactId>BoneTwerker</artifactId>
   <name>BoneTwerker</name>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
   <build>
     <resources>
       <resource>
