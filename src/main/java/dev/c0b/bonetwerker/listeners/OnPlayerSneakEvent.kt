@@ -73,14 +73,6 @@ class OnPlayerSneakEvent(private val mainInstance: BoneTwerker) : Listener {
                             }
                         }
                     }
-                } else {
-
-                    // Play an F#0 on the bass for failure :(
-                    event.player.playNote(
-                        event.player.location,
-                        Instrument.BASS_GUITAR,
-                        Note.sharp(0, Note.Tone.F)
-                    )
                 }
             }
         }
